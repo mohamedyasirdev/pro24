@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-lana Price</title>
+    <link rel="stylesheet" href="css/stylep.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1> الأشتراك في صناديق اي لانا </h1>
+      <div class="toggle">
+        <label> سنويا </label>
+        <div class="toggle-btn">
+          <input type="checkbox" class="checkbox" id="checkbox" />
+          <label class="sub" id="sub" for="checkbox">
+            <div class="circle"></div>
+          </label>
+        </div>
+        <label> شهريا </label>
+      </div>
+    </header>
+    
+    <div class="cards">
+      <div class="card shadow">
+        <ul>
+          <li class="pack"> صندوق العناية بالبشرة </li>
+          <li id="basic" class="price bottom-bar">75K SDG</li>
+          <li class="bottom-bar" id="p1_n1">5 قطع جيل الاستحمام بالفانيلا</li>
+          <li class="bottom-bar" id="p1_n2">5 قطع سيرم حب الشباب</li>
+          <li class="bottom-bar" id="p1_n3">5 قطع سيرم الهيالورونيك</li>
+          <li><button class="btn">  أشتراك </button></li>
+        </ul>
+      </div>
+      <div class="card active">
+        <ul>
+          <li class="pack"> العناية بالبشرة الحساسة </li>
+          <li id="professional" class="price bottom-bar">260K SDG</li>
+          <li class="bottom-bar" id="plan2_1">4 كريم وقاية من الشمس</li>
+          <li class="bottom-bar" id="plan2_2">4 غسول سيتافيل</li>
+          <li class="bottom-bar" id="plan2_3">3 فارماكلينيكس لايتنكس جولد سيرم 30ml</li>
+          <li><button class="btn active-btn"> أشتراك </button></li>
+        </ul>
+      </div>
+      <div class="card shadow">
+        <ul>
+          <li class="pack"> صندوق عناية بالجسم </li>
+          <li id="master" class="price bottom-bar">135K SDG</li>
+          <li class="bottom-bar" id="plan3_1">4 ايجو كيوفي غسول شديد الترطيب</li>
+          <li class="bottom-bar" id="plan3_2">3 سيسديرما رول</li>
+          <li class="bottom-bar" id="plan3_3">2 لويس ويدمر كريم</li>
+          <li><button class="btn">أشتراك</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/price.js"></script>
+  </body>
+</html>
